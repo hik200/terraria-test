@@ -1,0 +1,32 @@
+# Config file of Start with Base mod
+# here you can setup custom values
+# lines start with '#' get ignored
+
+# basetype values ba2=0 ba3=1 b3b=2 ba4=3 ba6=4 currently supported
+basetype = 0
+
+# In following part you can change each type of placed objects.
+# For tile ID's look e.g. at https://terraria.gamepedia.com/Tile_IDs
+# There the style numbers are written in braces, subtract 1 from those
+# For items types look at their wiki pages. Those are placed in a starting chest.
+
+# Tiles used to build base
+TileID = 273
+ItemIDoftileType = 2119
+
+# Wall
+WallID = 176
+ItemIDofWallType = 2861
+
+# Furniture
+PlatformStyle = 26
+LanternStyle = 33
+ChairStyle = 32
+WorkBenchStyle = 27
+LampStyle = 27
+TorchStyle = 0
+ChairItemType = 2812
+WorkBenchItemType = 2826
+LanternItemType = 2820
+LampItemType = 2819
+PlatformItemType = 2822

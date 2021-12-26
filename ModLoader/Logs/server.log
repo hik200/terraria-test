@@ -1,0 +1,166 @@
+﻿[19:44:49] [1/INFO] [tML]: Starting tModLoader v0.11.6.2 Windows server (02.02.2020)
+[19:44:49] [1/INFO] [tML]: Running on NetFramework 4.8
+[19:44:49] [1/INFO] [tML]: Executable: D:\GOG Games\Terraria\tModLoaderServer.exe
+[19:44:49] [1/INFO] [tML]: Working Directory: d:\gog games\terraria
+[19:44:49] [1/INFO] [tML]: Launch Parameters: -autoshutdown -password -lang 1 -world C:\Users\servi\Documents\My Games\Terraria\ModLoader\Worlds\phSlashCalamReve.wld -modpath C:\Users\servi\Documents\My Games\Terraria\ModLoader\Mods
+[19:44:49] [1/DEBUG] [tML]: Assembly Resolve:  -> MonoMod.RuntimeDetour, Version=19.12.19.1, Culture=neutral, PublicKeyToken=null
+[19:44:49] [1/DEBUG] [tML]: Assembly Resolve: MonoMod.RuntimeDetour, Version=19.12.19.1, Culture=neutral, PublicKeyToken=null -> MonoMod.Utils, Version=19.12.19.1, Culture=neutral, PublicKeyToken=null
+[19:44:49] [1/DEBUG] [tML]: Assembly Resolve: MonoMod.RuntimeDetour, Version=19.12.19.1, Culture=neutral, PublicKeyToken=null -> Mono.Cecil, Version=0.11.1.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e
+[19:44:49] [1/DEBUG] [tML]: Assembly Resolve:  -> Ionic.Zip.Reduced, Version=1.9.1.8, Culture=neutral, PublicKeyToken=edbe51ad942a3f5c
+[19:44:49] [1/DEBUG] [tML]: Assembly Resolve:  -> Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed
+[19:44:51] [1/INFO] [tML]: Unloading mods
+[19:44:51] [1/INFO] [tML]: Finding Mods...
+[19:44:52] [1/INFO] [tML]: Sandboxing: AutoReroll
+[19:44:52] [1/INFO] [tML]: Sandboxing: AutoTrash
+[19:44:52] [1/INFO] [tML]: Sandboxing: BannerBonanza
+[19:44:52] [1/INFO] [tML]: Sandboxing: BossChecklist
+[19:44:52] [1/INFO] [tML]: Sandboxing: CalamityMod
+[19:44:53] [1/INFO] [tML]: Sandboxing: Census
+[19:44:53] [1/INFO] [tML]: Sandboxing: HamstarHelpers
+[19:44:53] [1/INFO] [tML]: Sandboxing: ItemMagnetPlus
+[19:44:54] [1/INFO] [tML]: Sandboxing: MagicStorage
+[19:44:54] [1/INFO] [tML]: Sandboxing: RecipeBrowser
+[19:44:54] [1/INFO] [tML]: Sandboxing: StartWithBase
+[19:44:54] [1/INFO] [tML]: Sandboxing: StatsCommand
+[19:44:54] [1/INFO] [tML]: Sandboxing: VeinMiner
+[19:44:54] [1/INFO] [tML]: Sandboxing: Wireless
+[19:44:54] [1/INFO] [tML]: Instantiating Mods...
+[19:44:54] [1/INFO] [tML]: Initializing: ModLoader v0.11.6.2
+[19:44:54] [1/INFO] [tML]: Initializing: AutoReroll v1.3.7
+[19:44:54] [1/INFO] [tML]: Initializing: AutoTrash v0.4.2
+[19:44:54] [1/INFO] [tML]: Initializing: BannerBonanza v1.1
+[19:44:54] [1/INFO] [tML]: Initializing: BossChecklist v1.0.11
+[19:44:54] [1/DEBUG] [tML]: Assembly Resolve: BossChecklist_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> TerrariaHooks, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[19:44:54] [1/DEBUG] [tML]: Hook On.Terraria.GameContent.Events.DD2Event::WinInvasionInternal() added by BossChecklist_0
+[19:44:54] [1/INFO] [tML]: Initializing: CalamityMod v1.4.2.111
+[19:44:55] [1/INFO] [tML]: Initializing: Census v0.3.1
+[19:44:55] [1/DEBUG] [tML]: Assembly Resolve: Census_0, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null -> MonoMod.Utils, Version=19.5.19.1, Culture=neutral, PublicKeyToken=null
+[19:44:55] [1/WARN] [tML]: Upgraded Reference MonoMod.Utils -> Version=19.5.19.1 -> 19.12.19.1
+[19:44:55] [1/DEBUG] [tML]: Hook IL.Terraria.Main::UpdateTime_SpawnTownNPCs() modified by Census_0
+[19:44:55] [1/DEBUG] [tML]: Assembly Resolve: Census_0, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null -> Mono.Cecil, Version=0.10.3.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e
+[19:44:55] [1/WARN] [tML]: Upgraded Reference Mono.Cecil -> Version=0.10.3.0 -> 0.11.1.0
+[19:44:55] [1/INFO] [tML]: Initializing: HamstarHelpers v5.4.2
+[19:44:55] [1/INFO] [tML]: Initializing: ItemMagnetPlus v1.0.1.2
+[19:44:55] [4/DEBUG] [tML]: Web Request: http://checkip.dyndns.org/
+[19:44:55] [1/INFO] [tML]: Initializing: MagicStorage v0.4.3.5
+[19:44:55] [1/INFO] [tML]: Initializing: RecipeBrowser v0.8.4.1
+[19:44:55] [1/DEBUG] [tML]: Hook On.Terraria.Player::AdjTiles() added by RecipeBrowser_0
+[19:44:55] [1/INFO] [tML]: Initializing: StartWithBase v0.2.2.5
+[19:44:55] [1/INFO] [tML]: Initializing: StatsCommand v0.4
+[19:44:55] [1/INFO] [tML]: Initializing: VeinMiner v1.3.1
+[19:44:55] [1/DEBUG] [tML]: Web Request: http://textuploader.com/dhrr7/raw
+[19:44:55] [1/DEBUG] [tML]: Web Request: https://textuploader.com/dhrr7/raw
+[19:44:56] [1/INFO] [tML]: Initializing: Wireless v1.5
+[19:44:56] [1/INFO] [tML]: Setting up...
+[19:44:56] [1/INFO] [tML]: Loading: ModLoader v0.11.6.2
+[19:44:56] [1/INFO] [tML]: Loading: AutoReroll v1.3.7
+[19:44:56] [1/INFO] [tML]: Loading: AutoTrash v0.4.2
+[19:44:56] [1/INFO] [tML]: Loading: BannerBonanza v1.1
+[19:44:56] [1/INFO] [tML]: Loading: BossChecklist v1.0.11
+[19:44:56] [1/INFO] [tML]: Loading: CalamityMod v1.4.2.111
+[19:44:57] [1/INFO] [tML]: Loading: Census v0.3.1
+[19:44:57] [1/INFO] [tML]: Loading: HamstarHelpers v5.4.2
+[19:44:57] [1/DEBUG] [tML]: Assembly Resolve:  -> Steamworks.NET, Version=9.1.0.0, Culture=neutral, PublicKeyToken=null
+[19:44:57] [1/INFO] [tML]: Loading: ItemMagnetPlus v1.0.1.2
+[19:44:57] [1/INFO] [tML]: Loading: MagicStorage v0.4.3.5
+[19:44:57] [1/INFO] [tML]: Loading: RecipeBrowser v0.8.4.1
+[19:44:57] [1/INFO] [tML]: Loading: StartWithBase v0.2.2.5
+[19:44:57] [1/INFO] [tML]: Loading: StatsCommand v0.4
+[19:44:57] [1/INFO] [tML]: Loading: VeinMiner v1.3.1
+[19:44:57] [1/INFO] [tML]: Loading: Wireless v1.5
+[19:44:57] [1/INFO] [tML]: Adding Recipes...
+[19:44:57] [1/INFO] [BossChecklist]: AddBossWithInfo calls for the following are not utilizing Boss Log features. Mod developers should update mod calls with proper information to improve user experience: Desert Scourge, Crabulon, Hive Mind / Perforator, Slime God, Cryogen, Brimstone Elemental, Aquatic Scourge, Calamitas, Leviathan, Astrum Aureus, Plaguebringer Goliath, Ravager, Astrum Deus, Profaned Guardians, Bumblebirb, Providence, Ceaseless Void, Storm Weaver, Signus, Polterghast, Devourer of Gods, Yharon, Supreme Calamitas
+[19:44:57] [1/INFO] [BossChecklist]: Updated Mod.Call documentation for BossChecklist: https://github.com/JavidPack/BossChecklist/wiki/Support-using-Mod-Call#modcalls
+[19:44:58] [5/INFO] [Terraria]: Loading World: phSlashCalamReve, IsCloud=False
+[19:44:58] [5/INFO] [StatusText]: Resetting game objects
+[19:45:01] [5/INFO] [StatusText]: Loading world data
+[19:45:02] [5/INFO] [StatusText]: Settling liquids
+[19:45:05] [13/INFO] [Terraria]: 127.0.0.1:57314 is connecting...
+[19:45:05] [15/WARN] [tML]: Silently Caught Exception: 
+System.Runtime.InteropServices.COMException: Требуемый ресурс занят. (Исключение из HRESULT: 0x800700AA)
+   в NATUPNPLib.IStaticPortMappingCollection.Add(Int32 lExternalPort, String bstrProtocol, Int32 lInternalPort, String bstrInternalClient, Boolean bEnabled, String bstrDescription)
+   в Terraria.Netplay.OpenPort()
+   в Terraria.Netplay.ServerLoop(Object threadContext)
+   в System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   в System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   в System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   в System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   в System.Threading.ThreadHelper.ThreadStart(Object obj)
+
+[19:45:05] [1/INFO] [Terraria]: Running one update...
+[19:45:05] [1/INFO] [tML]: Server starting with AllowVanillaClients set to False
+[19:45:05] [1/DEBUG] [tML]: Fallback synchronization context assigned
+[19:45:05] [1/INFO] [Terraria]: Sending Server Config HamstarHelpers ModHelpersConfig: {"WorldModLockEnable":false}
+[19:45:05] [1/INFO] [Terraria]: Sending Server Config ItemMagnetPlus Config: {"PickupEffect":true}
+[19:45:07] [1/INFO] [Terraria]: Listening on port 7777
+[19:45:09] [1/INFO] [Terraria]: HiRav has joined.
+[19:45:09] [4/DEBUG] [tML]: Assembly Resolve:  -> MP3Sharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+[19:45:09] [4/DEBUG] [tML]: Assembly Resolve:  -> NVorbis, Version=0.8.4.0, Culture=neutral, PublicKeyToken=null
+[19:45:10] [4/DEBUG] [tML]: Assembly Resolve:  -> Mono.Cecil.Mdb, Version=0.11.1.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e
+[19:45:10] [4/DEBUG] [tML]: Assembly Resolve:  -> Mono.Cecil.Pdb, Version=0.11.1.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e
+[19:45:11] [4/INFO] [Terraria]: JIT loading finished
+[19:45:48] [13/INFO] [Terraria]: 178.151.225.167:50993 is connecting...
+[19:45:48] [1/INFO] [Terraria]: Sending Server Config HamstarHelpers ModHelpersConfig: {"WorldModLockEnable":false}
+[19:45:48] [1/INFO] [Terraria]: Sending Server Config ItemMagnetPlus Config: {"PickupEffect":true}
+[19:45:51] [1/INFO] [Terraria]: sugnilina has joined.
+[20:35:43] [1/WARN] [tML]: Silently Caught Exception: 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.Collision.StepConveyorBelt(Entity entity, Single gravDir)
+   at Terraria.Item.UpdateItem(Int32 i)
+   at Terraria.Main.DoUpdate(GameTime gameTime)
+   at Terraria.Main.Update(GameTime gameTime)
+   at Terraria.Main.DedServ()
+   at Terraria.Program.LaunchGame_()
+   at Terraria.Program.LaunchGame(String[] args, Boolean monoArgs)
+   at Terraria.WindowsLaunch.Main(String[] args)
+
+[20:49:26] [19/INFO] [StatusText]: Saving world data
+[20:49:27] [19/INFO] [StatusText]: Validating world save
+[21:04:29] [1/WARN] [tML]: Silently Caught Exception: 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at CalamityMod.NPCs.ProfanedGuardians.ProfanedGuardianBoss2.AI() in CalamityMod\NPCs\ProfanedGuardians\ProfanedGuardianBoss2.cs:line 72
+   at Terraria.ModLoader.NPCLoader.AI(NPC npc)
+   at Terraria.ModLoader.NPCLoader.NPCAI(NPC npc)
+   at Terraria.NPC.UpdateNPC(Int32 i)
+   at Terraria.Main.DoUpdate(GameTime gameTime)
+   at Terraria.Main.Update(GameTime gameTime)
+   at Terraria.Main.DedServ()
+   at Terraria.Program.LaunchGame_()
+   at Terraria.Program.LaunchGame(String[] args, Boolean monoArgs)
+   at Terraria.WindowsLaunch.Main(String[] args)
+
+[21:04:29] [1/WARN] [tML]: Silently Caught Exception: 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at CalamityMod.NPCs.ProfanedGuardians.ProfanedGuardianBoss3.AI() in CalamityMod\NPCs\ProfanedGuardians\ProfanedGuardianBoss3.cs:line 72
+   at Terraria.ModLoader.NPCLoader.AI(NPC npc)
+   at Terraria.ModLoader.NPCLoader.NPCAI(NPC npc)
+   at Terraria.NPC.UpdateNPC(Int32 i)
+   at Terraria.Main.DoUpdate(GameTime gameTime)
+   at Terraria.Main.Update(GameTime gameTime)
+   at Terraria.Main.DedServ()
+   at Terraria.Program.LaunchGame_()
+   at Terraria.Program.LaunchGame(String[] args, Boolean monoArgs)
+   at Terraria.WindowsLaunch.Main(String[] args)
+
+[21:48:36] [4/INFO] [StatusText]: Saving world data
+[21:48:37] [4/INFO] [StatusText]: Validating world save
+[22:05:19] [1/WARN] [tML]: Silently Caught Exception: 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at CalamityMod.NPCs.Providence.ProvSpawnHealer.AI() in CalamityMod\NPCs\Providence\ProvSpawnHealer.cs:line 67
+   at Terraria.ModLoader.NPCLoader.AI(NPC npc)
+   at Terraria.ModLoader.NPCLoader.NPCAI(NPC npc)
+   at Terraria.NPC.UpdateNPC(Int32 i)
+   at Terraria.Main.DoUpdate(GameTime gameTime)
+   at Terraria.Main.Update(GameTime gameTime)
+   at Terraria.Main.DedServ()
+   at Terraria.Program.LaunchGame_()
+   at Terraria.Program.LaunchGame(String[] args, Boolean monoArgs)
+   at Terraria.WindowsLaunch.Main(String[] args)
+
+[22:17:37] [1/INFO] [Terraria]: sugnilina has left.
+[22:19:19] [1/INFO] [Terraria]: HiRav has left.
+[22:19:19] [1/INFO] [Terraria]: Local player left. Autoshutdown starting.
+[22:19:20] [1/INFO] [StatusText]: Saving world data
+[22:19:20] [1/INFO] [StatusText]: Validating world save
+[22:19:22] [15/INFO] [StatusText]: Saving world data
+[22:19:23] [15/INFO] [StatusText]: Validating world save

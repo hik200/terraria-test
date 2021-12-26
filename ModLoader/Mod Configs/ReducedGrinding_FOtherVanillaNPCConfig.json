@@ -1,0 +1,9 @@
+{
+  "DryadSellsPlanteraBulbAfterPlanteraDefeated": false,
+  "MechanicSellsDartTrapAndSpikesAfterSkeletronDefeated": false,
+  "MechanicSellsGeyserAfterWallofFleshDefeated": false,
+  "WitchDoctorSellsLihzahrdTrapsAfterGolemDefeated": false,
+  "WitchDoctorSellsWoodenSpikesAfterGolemDefeated": false,
+  "MerchantSellsAllMiningGear": false,
+  "MerchantSellsSwiftnessPotion": false
+}

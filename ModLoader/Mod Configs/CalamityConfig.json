@@ -1,0 +1,21 @@
+{
+  "AdrenalineAndRage": true,
+  "ExpertDebuffDurationReduction": true,
+  "ExpertChilledWaterRemoval": true,
+  "ProficiencyEnabled": true,
+  "MiningSpeedBoost": false,
+  "DisableExpertEnemySpawnsNearHouse": false,
+  "ExpertPillarEnemyKillCountReduction": true,
+  "LethalLava": true,
+  "RevengeanceAndDeathThoriumBossBuff": false,
+  "BossRushAccessoryCurse": false,
+  "BossRushHealthCurse": false,
+  "BossRushDashCurse": false,
+  "BossRushXerocCurse": false,
+  "BossRushImmunityFrameCurse": false,
+  "RageMeterXPos": 500,
+  "RageMeterYPos": 30,
+  "AdrenalineMeterXPos": 650,
+  "AdrenalineMeterYPos": 30,
+  "BossHealthPercentageBoost": 0
+}

@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "isCheatMode": false,
+  "isLock": false,
+  "timeOut": 30,
+  "isDisplayDropInfo": true,
+  "isDisplaySpawnValue": true,
+  "isDisplayDropItemValue": true,
+  "isDisplayTooltipItemValue": false,
+  "isOutputDropInfo": false,
+  "isAnimation": false,
+  "animationSpeed": 10
+}

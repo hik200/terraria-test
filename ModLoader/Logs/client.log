@@ -1,0 +1,18 @@
+﻿[12:47:46] [1/INFO] [tML]: Starting tModLoader v0.11.8.3 Windows client (03.05.2021)
+[12:47:46] [1/INFO] [tML]: Running on NetFramework 4.8
+[12:47:46] [1/INFO] [tML]: Executable: D:\GOG Games\Terraria\tModLoader\tModLoader.exe
+[12:47:46] [1/INFO] [tML]: Working Directory: D:\GOG Games\Terraria\tModLoader
+[12:47:46] [1/INFO] [tML]: Launch Parameters: 
+[12:47:46] [1/DEBUG] [tML]: Assembly Resolve:  -> MonoMod.RuntimeDetour, Version=20.11.16.1, Culture=neutral, PublicKeyToken=null
+[12:47:46] [1/DEBUG] [tML]: Assembly Resolve: MonoMod.RuntimeDetour, Version=20.11.16.1, Culture=neutral, PublicKeyToken=null -> MonoMod.Utils, Version=20.11.16.1, Culture=neutral, PublicKeyToken=null
+[12:47:46] [1/DEBUG] [tML]: Assembly Resolve: MonoMod.RuntimeDetour, Version=20.11.16.1, Culture=neutral, PublicKeyToken=null -> Mono.Cecil, Version=0.11.3.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e
+[12:47:47] [1/DEBUG] [tML]: Assembly Resolve:  -> Ionic.Zip.Reduced, Version=1.9.1.8, Culture=neutral, PublicKeyToken=edbe51ad942a3f5c
+[12:47:47] [1/DEBUG] [tML]: Assembly Resolve:  -> Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed
+[12:47:49] [1/INFO] [tML]: Checking GOG or manual installation...
+[12:47:50] [1/INFO] [tML]: GOG or manual installation OK.
+[12:47:50] [1/DEBUG] [tML]: Assembly Resolve:  -> Steamworks.NET, Version=9.1.0.0, Culture=neutral, PublicKeyToken=null
+[12:47:53] [1/DEBUG] [Terraria]: Graphics Device: NVIDIA GeForce GTX 765M {Width:1920 Height:1080 Format:Color AspectRatio:1.777778}
+[12:47:53] [1/DEBUG] [Terraria]: Device Reset, Profile: Reach -> HiDef, Width: 800, Height: 480, Fullscreen: False, Display: \\.\DISPLAY1
+[12:48:13] [1/INFO] [Terraria]: Loaded 1000 vanilla assets
+[12:48:22] [1/INFO] [Terraria]: Loaded 2000 vanilla assets
+[12:48:30] [1/INFO] [Terraria]: Loaded 3000 vanilla assets

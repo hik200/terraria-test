@@ -1,0 +1,263 @@
+﻿[19:30:56] [1/INFO] [tML]: Starting tModLoader v0.11.6.2 Windows client (05.01.2020)
+[19:30:56] [1/INFO] [tML]: Running on NetFramework 4.8
+[19:30:56] [1/INFO] [tML]: Executable: D:\GOG Games\Terraria\Terraria.exe
+[19:30:56] [1/INFO] [tML]: Working Directory: d:\gog games\terraria
+[19:30:56] [1/INFO] [tML]: Launch Parameters: 
+[19:30:56] [1/DEBUG] [tML]: Assembly Resolve:  -> MonoMod.RuntimeDetour, Version=19.12.19.1, Culture=neutral, PublicKeyToken=null
+[19:30:56] [1/DEBUG] [tML]: Assembly Resolve: MonoMod.RuntimeDetour, Version=19.12.19.1, Culture=neutral, PublicKeyToken=null -> MonoMod.Utils, Version=19.12.19.1, Culture=neutral, PublicKeyToken=null
+[19:30:56] [1/DEBUG] [tML]: Assembly Resolve: MonoMod.RuntimeDetour, Version=19.12.19.1, Culture=neutral, PublicKeyToken=null -> Mono.Cecil, Version=0.11.1.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e
+[19:30:56] [1/DEBUG] [tML]: Assembly Resolve:  -> Ionic.Zip.Reduced, Version=1.9.1.8, Culture=neutral, PublicKeyToken=edbe51ad942a3f5c
+[19:30:56] [1/DEBUG] [tML]: Assembly Resolve:  -> Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed
+[19:30:57] [1/INFO] [tML]: GoG detected. Disabled steam check.
+[19:30:59] [1/DEBUG] [Terraria]: Graphics Device: NVIDIA GeForce GTX 765M {Width:1920 Height:1080 Format:Color AspectRatio:1.777778}
+[19:30:59] [1/DEBUG] [Terraria]: Device Reset, Profile: Reach -> HiDef, Width: 800, Height: 480, Fullscreen: False, Display: \\.\DISPLAY1
+[19:31:40] [1/DEBUG] [Terraria]: Device Reset, Profile: HiDef, Width: 800 -> 1280, Height: 480 -> 720, Fullscreen: False -> True, Display: \\.\DISPLAY1
+[19:31:43] [1/DEBUG] [Terraria]: Device Reset, Profile: HiDef, Width: 1280 -> 1920, Height: 720 -> 1080, Fullscreen: True, Display: \\.\DISPLAY1
+[19:31:46] [5/DEBUG] [tML]: Assembly Resolve:  -> Steamworks.NET, Version=9.1.0.0, Culture=neutral, PublicKeyToken=null
+[19:31:52] [5/DEBUG] [tML]: Assembly Resolve:  -> MP3Sharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+[19:31:52] [5/DEBUG] [tML]: Assembly Resolve:  -> NVorbis, Version=0.8.4.0, Culture=neutral, PublicKeyToken=null
+[19:31:52] [5/DEBUG] [tML]: Assembly Resolve:  -> Mono.Cecil.Mdb, Version=0.11.1.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e
+[19:31:52] [5/DEBUG] [tML]: Assembly Resolve:  -> Mono.Cecil.Pdb, Version=0.11.1.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e
+[19:31:53] [5/INFO] [Terraria]: JIT loading finished
+[19:33:01] [1/DEBUG] [Terraria]: Device Reset, Profile: HiDef, Width: 1920, Height: 1080, Fullscreen: True, Display: \\.\DISPLAY1
+[19:33:02] [6/INFO] [tML]: Unloading mods
+[19:33:02] [6/INFO] [tML]: Finding Mods...
+[19:33:03] [6/INFO] [tML]: Sandboxing: AutoTrash
+[19:33:03] [6/INFO] [tML]: Sandboxing: BannerBonanza
+[19:33:03] [6/INFO] [tML]: Sandboxing: BossChecklist
+[19:33:03] [6/INFO] [tML]: Sandboxing: CalamityMod
+[19:33:04] [6/INFO] [tML]: Sandboxing: CalamityRuTranslate
+[19:33:05] [6/INFO] [tML]: Sandboxing: Census
+[19:33:05] [6/INFO] [tML]: Sandboxing: ItemMagnetPlus
+[19:33:05] [6/INFO] [tML]: Sandboxing: MagicStorage
+[19:33:05] [6/INFO] [tML]: Sandboxing: RecipeBrowser
+[19:33:05] [6/INFO] [tML]: Sandboxing: VeinMiner
+[19:33:05] [6/INFO] [tML]: Sandboxing: Wireless
+[19:33:05] [6/INFO] [tML]: Instantiating Mods...
+[19:33:05] [6/INFO] [tML]: Initializing: ModLoader v0.11.6.2
+[19:33:05] [6/INFO] [tML]: Initializing: AutoTrash v0.4.2
+[19:33:05] [6/INFO] [tML]: Initializing: BannerBonanza v1.1
+[19:33:05] [6/INFO] [tML]: Initializing: BossChecklist v1.0.6
+[19:33:05] [6/DEBUG] [tML]: Assembly Resolve: BossChecklist_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> TerrariaHooks, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[19:33:05] [6/DEBUG] [tML]: Hook On.Terraria.GameContent.Events.DD2Event::WinInvasionInternal() added by BossChecklist_0
+[19:33:05] [6/INFO] [tML]: Initializing: CalamityMod v1.4.2.111
+[19:33:09] [6/INFO] [tML]: Initializing: CalamityRuTranslate v1.3.0.4
+[19:33:09] [6/INFO] [tML]: Initializing: Census v0.3.1
+[19:33:09] [6/DEBUG] [tML]: Assembly Resolve: Census_0, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null -> MonoMod.Utils, Version=19.5.19.1, Culture=neutral, PublicKeyToken=null
+[19:33:09] [6/WARN] [tML]: Upgraded Reference MonoMod.Utils -> Version=19.5.19.1 -> 19.12.19.1
+[19:33:09] [6/DEBUG] [tML]: Hook IL.Terraria.Main::UpdateTime_SpawnTownNPCs() modified by Census_0
+[19:33:09] [6/DEBUG] [tML]: Assembly Resolve: Census_0, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null -> Mono.Cecil, Version=0.10.3.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e
+[19:33:09] [6/WARN] [tML]: Upgraded Reference Mono.Cecil -> Version=0.10.3.0 -> 0.11.1.0
+[19:33:09] [6/INFO] [tML]: Initializing: ItemMagnetPlus v1.0.1.2
+[19:33:09] [6/INFO] [tML]: Initializing: MagicStorage v0.4.3.5
+[19:33:09] [6/INFO] [tML]: Initializing: RecipeBrowser v0.8.4
+[19:33:09] [6/DEBUG] [tML]: Hook On.Terraria.Recipe::FindRecipes() added by RecipeBrowser_0
+[19:33:09] [6/DEBUG] [tML]: Hook On.Terraria.Player::AdjTiles() added by RecipeBrowser_0
+[19:33:09] [6/INFO] [tML]: Initializing: VeinMiner v1.3.1
+[19:33:09] [6/DEBUG] [tML]: Web Request: http://textuploader.com/dhrr7/raw
+[19:33:09] [6/DEBUG] [tML]: Web Request: https://textuploader.com/dhrr7/raw
+[19:33:10] [6/INFO] [tML]: Initializing: Wireless v1.5
+[19:33:10] [6/INFO] [tML]: Setting up...
+[19:33:10] [6/INFO] [tML]: Loading: ModLoader v0.11.6.2
+[19:33:10] [6/INFO] [tML]: Loading: AutoTrash v0.4.2
+[19:33:10] [6/INFO] [tML]: Loading: BannerBonanza v1.1
+[19:33:10] [6/INFO] [tML]: Loading: BossChecklist v1.0.6
+[19:33:10] [6/INFO] [tML]: Loading: CalamityMod v1.4.2.111
+[19:33:11] [6/INFO] [BossChecklist]: AddBossWithInfo call for Desert Scourge is not utilizing Boss Log features. Mod developers should update mod calls with proper information to improve user experience.
+[19:33:11] [6/INFO] [BossChecklist]: AddBossWithInfo call for Crabulon is not utilizing Boss Log features. Mod developers should update mod calls with proper information to improve user experience.
+[19:33:11] [6/INFO] [BossChecklist]: AddBossWithInfo call for Hive Mind / Perforator is not utilizing Boss Log features. Mod developers should update mod calls with proper information to improve user experience.
+[19:33:11] [6/INFO] [BossChecklist]: AddBossWithInfo call for Slime God is not utilizing Boss Log features. Mod developers should update mod calls with proper information to improve user experience.
+[19:33:11] [6/INFO] [BossChecklist]: AddBossWithInfo call for Cryogen is not utilizing Boss Log features. Mod developers should update mod calls with proper information to improve user experience.
+[19:33:11] [6/INFO] [BossChecklist]: AddBossWithInfo call for Brimstone Elemental is not utilizing Boss Log features. Mod developers should update mod calls with proper information to improve user experience.
+[19:33:11] [6/INFO] [BossChecklist]: AddBossWithInfo call for Aquatic Scourge is not utilizing Boss Log features. Mod developers should update mod calls with proper information to improve user experience.
+[19:33:11] [6/INFO] [BossChecklist]: AddBossWithInfo call for Calamitas is not utilizing Boss Log features. Mod developers should update mod calls with proper information to improve user experience.
+[19:33:11] [6/INFO] [BossChecklist]: AddBossWithInfo call for Leviathan is not utilizing Boss Log features. Mod developers should update mod calls with proper information to improve user experience.
+[19:33:11] [6/INFO] [BossChecklist]: AddBossWithInfo call for Astrum Aureus is not utilizing Boss Log features. Mod developers should update mod calls with proper information to improve user experience.
+[19:33:11] [6/INFO] [BossChecklist]: AddBossWithInfo call for Plaguebringer Goliath is not utilizing Boss Log features. Mod developers should update mod calls with proper information to improve user experience.
+[19:33:11] [6/INFO] [BossChecklist]: AddBossWithInfo call for Ravager is not utilizing Boss Log features. Mod developers should update mod calls with proper information to improve user experience.
+[19:33:11] [6/INFO] [BossChecklist]: AddBossWithInfo call for Astrum Deus is not utilizing Boss Log features. Mod developers should update mod calls with proper information to improve user experience.
+[19:33:11] [6/INFO] [BossChecklist]: AddBossWithInfo call for Profaned Guardians is not utilizing Boss Log features. Mod developers should update mod calls with proper information to improve user experience.
+[19:33:11] [6/INFO] [BossChecklist]: AddBossWithInfo call for Bumblebirb is not utilizing Boss Log features. Mod developers should update mod calls with proper information to improve user experience.
+[19:33:11] [6/INFO] [BossChecklist]: AddBossWithInfo call for Providence is not utilizing Boss Log features. Mod developers should update mod calls with proper information to improve user experience.
+[19:33:11] [6/INFO] [BossChecklist]: AddBossWithInfo call for Ceaseless Void is not utilizing Boss Log features. Mod developers should update mod calls with proper information to improve user experience.
+[19:33:11] [6/INFO] [BossChecklist]: AddBossWithInfo call for Storm Weaver is not utilizing Boss Log features. Mod developers should update mod calls with proper information to improve user experience.
+[19:33:11] [6/INFO] [BossChecklist]: AddBossWithInfo call for Signus is not utilizing Boss Log features. Mod developers should update mod calls with proper information to improve user experience.
+[19:33:11] [6/INFO] [BossChecklist]: AddBossWithInfo call for Polterghast is not utilizing Boss Log features. Mod developers should update mod calls with proper information to improve user experience.
+[19:33:11] [6/INFO] [BossChecklist]: AddBossWithInfo call for Devourer of Gods is not utilizing Boss Log features. Mod developers should update mod calls with proper information to improve user experience.
+[19:33:11] [6/INFO] [BossChecklist]: AddBossWithInfo call for Yharon is not utilizing Boss Log features. Mod developers should update mod calls with proper information to improve user experience.
+[19:33:11] [6/INFO] [BossChecklist]: AddBossWithInfo call for Supreme Calamitas is not utilizing Boss Log features. Mod developers should update mod calls with proper information to improve user experience.
+[19:33:11] [6/INFO] [tML]: Loading: CalamityRuTranslate v1.3.0.4
+[19:33:11] [6/INFO] [tML]: Loading: Census v0.3.1
+[19:33:11] [6/INFO] [tML]: Loading: ItemMagnetPlus v1.0.1.2
+[19:33:11] [6/INFO] [tML]: Loading: MagicStorage v0.4.3.5
+[19:33:11] [6/INFO] [tML]: Loading: RecipeBrowser v0.8.4
+[19:33:11] [6/INFO] [tML]: Loading: VeinMiner v1.3.1
+[19:33:11] [6/INFO] [tML]: Loading: Wireless v1.5
+[19:33:11] [6/INFO] [tML]: Adding Recipes...
+[19:33:11] [6/INFO] [BossChecklist]: Updated Mod.Call documentation for BossChecklist: https://github.com/JavidPack/BossChecklist/wiki/Support-using-Mod-Call#modcalls
+[19:33:12] [6/DEBUG] [tML]: Assembly Resolve:  -> RecipeBrowser_0, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+[19:33:12] [6/DEBUG] [tML]: Assembly Resolve:  -> RecipeBrowser_0, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+[19:33:18] [18/INFO] [Terraria]: Connecting to 127.0.0.1:7777
+[19:33:20] [1/INFO] [tML]: Server reports AllowVanillaClients set to False
+[19:33:20] [18/INFO] [StatusText]: Loading map data
+[19:33:20] [18/INFO] [StatusText]: Drawing map
+[19:33:20] [18/INFO] [StatusText]: Receiving tile data
+[19:33:20] [1/INFO] [Terraria]: Entering world with player: HiRav, IsCloud=False
+[19:33:49] [1/DEBUG] [tML]: Assembly Resolve: CalamityRuTranslate_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null -> CalamityMod_0, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+[19:42:12] [18/INFO] [StatusText]: Receiving tile data
+[19:42:31] [18/INFO] [StatusText]: Receiving tile data
+[19:42:44] [1/WARN] [tML]: Silently Caught Exception: 
+System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Terraria.NPC.AI_006_Worms()
+   at Terraria.NPC.VanillaAI()
+   at Terraria.ModLoader.NPCLoader.NPCAI(NPC npc)
+   at Terraria.NPC.UpdateNPC(Int32 i)
+   at Terraria.Main.DoUpdate(GameTime gameTime)
+   at Terraria.Main.Update(GameTime gameTime)
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.Game.HostIdle(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameHost.OnIdle()
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Terraria.Program.LaunchGame_()
+   at Terraria.Program.LaunchGame(String[] args, Boolean monoArgs)
+   at Terraria.WindowsLaunch.Main(String[] args)
+
+[19:51:10] [1/DEBUG] [Terraria]: Device Reset, Profile: HiDef, Width: 1920, Height: 1080, Fullscreen: True, Display: \\.\DISPLAY1
+[19:53:06] [1/DEBUG] [Terraria]: Device Reset, Profile: HiDef, Width: 1920, Height: 1080, Fullscreen: True, Display: \\.\DISPLAY1
+[19:53:28] [1/DEBUG] [Terraria]: Device Reset, Profile: HiDef, Width: 1920, Height: 1080, Fullscreen: True, Display: \\.\DISPLAY1
+[19:53:50] [1/DEBUG] [Terraria]: Device Reset, Profile: HiDef, Width: 1920, Height: 1080, Fullscreen: True, Display: \\.\DISPLAY1
+[20:20:39] [1/WARN] [tML]: Silently Caught Exception: 
+System.IO.IOException: Read underflow 1 of 5 bytes caused by MagicStorage in HandlePacket
+   at Terraria.ModLoader.ModNet.HandleModPacket(BinaryReader reader, Int32 whoAmI, Int32 length)
+   at Terraria.MessageBuffer.GetData(Int32 start, Int32 length, Int32& messageType)
+   at Terraria.NetMessage.CheckBytes(Int32 bufferIndex)
+   at Terraria.Netplay.<>c.<InnerClientLoop>b__38_0()
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+   at System.Threading.Tasks.Task.ExecutionContextCallback(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+   at System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+   at System.Threading.Tasks.ThreadPoolTaskScheduler.TryExecuteTaskInline(Task task, Boolean taskWasPreviouslyQueued)
+   at System.Threading.Tasks.TaskScheduler.TryRunInline(Task task, Boolean taskWasPreviouslyQueued)
+   at System.Threading.Tasks.Task.InternalRunSynchronously(TaskScheduler scheduler, Boolean waitForCompletion)
+   at Terraria.Netplay.OnUpdate()
+   at Terraria.Main.DoUpdate(GameTime gameTime)
+   at Terraria.Main.Update(GameTime gameTime)
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.Game.HostIdle(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameHost.OnIdle()
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Terraria.Program.LaunchGame_()
+   at Terraria.Program.LaunchGame(String[] args, Boolean monoArgs)
+   at Terraria.WindowsLaunch.Main(String[] args)
+
+[20:24:30] [15/WARN] [tML]: Silently Caught Exception: 
+System.InvalidOperationException: Коллекция была изменена; невозможно выполнить операцию перечисления.
+   в System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   в System.Collections.Generic.Dictionary`2.KeyCollection.Enumerator.MoveNext()
+   в MagicStorage.CraftingGUI.IsAvailable(Recipe recipe) в MagicStorage\CraftingGUI.cs:строка 1005
+   в MagicStorage.CraftingGUI.<>c.<RefreshRecipes>b__106_0(Recipe recipe) в MagicStorage\CraftingGUI.cs:строка 841
+   в System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   в System.Collections.Generic.List`1.InsertRange(Int32 index, IEnumerable`1 collection)
+   в MagicStorage.CraftingGUI.RefreshRecipes() в MagicStorage\CraftingGUI.cs:строка 842
+   в System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   в System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   в System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   в System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   в System.Threading.ThreadHelper.ThreadStart()
+
+[20:27:28] [18/INFO] [StatusText]: Receiving tile data
+[20:35:03] [18/INFO] [StatusText]: Receiving tile data
+[20:35:07] [18/INFO] [StatusText]: Receiving tile data
+[20:35:13] [18/INFO] [StatusText]: Receiving tile data
+[20:39:04] [18/INFO] [StatusText]: Receiving tile data
+[20:45:11] [1/DEBUG] [Terraria]: Device Reset, Profile: HiDef, Width: 1920, Height: 1080, Fullscreen: True, Display: \\.\DISPLAY1
+[20:47:53] [18/INFO] [StatusText]: Receiving tile data
+[20:51:33] [18/INFO] [StatusText]: Receiving tile data
+[21:02:48] [15/WARN] [tML]: Silently Caught Exception: 
+System.InvalidOperationException: Коллекция была изменена; невозможно выполнить операцию перечисления.
+   в System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   в System.Collections.Generic.Dictionary`2.KeyCollection.Enumerator.MoveNext()
+   в MagicStorage.CraftingGUI.IsAvailable(Recipe recipe) в MagicStorage\CraftingGUI.cs:строка 1005
+   в MagicStorage.CraftingGUI.<>c.<RefreshRecipes>b__106_0(Recipe recipe) в MagicStorage\CraftingGUI.cs:строка 841
+   в System.Linq.Enumerable.WhereListIterator`1.MoveNext()
+   в System.Collections.Generic.List`1.InsertRange(Int32 index, IEnumerable`1 collection)
+   в MagicStorage.CraftingGUI.RefreshRecipes() в MagicStorage\CraftingGUI.cs:строка 842
+   в System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   в System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   в System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   в System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   в System.Threading.ThreadHelper.ThreadStart()
+
+[21:19:18] [1/DEBUG] [Terraria]: Device Reset, Profile: HiDef, Width: 1920, Height: 1080, Fullscreen: True, Display: \\.\DISPLAY1
+[21:20:03] [1/DEBUG] [Terraria]: Device Reset, Profile: HiDef, Width: 1920, Height: 1080, Fullscreen: True, Display: \\.\DISPLAY1
+[21:20:24] [1/DEBUG] [Terraria]: Device Reset, Profile: HiDef, Width: 1920, Height: 1080, Fullscreen: True, Display: \\.\DISPLAY1
+[21:20:28] [1/DEBUG] [Terraria]: Device Reset, Profile: HiDef, Width: 1920, Height: 1080, Fullscreen: True, Display: \\.\DISPLAY1
+[21:20:59] [1/DEBUG] [Terraria]: Device Reset, Profile: HiDef, Width: 1920, Height: 1080, Fullscreen: True, Display: \\.\DISPLAY1
+[21:21:11] [1/DEBUG] [Terraria]: Device Reset, Profile: HiDef, Width: 1920, Height: 1080, Fullscreen: True, Display: \\.\DISPLAY1
+[21:29:42] [18/INFO] [StatusText]: Receiving tile data
+[21:30:01] [18/INFO] [StatusText]: Receiving tile data
+[21:30:22] [18/INFO] [StatusText]: Receiving tile data
+[21:33:39] [18/INFO] [StatusText]: Receiving tile data
+[22:11:05] [1/DEBUG] [Terraria]: Device Reset, Profile: HiDef, Width: 1920, Height: 1080, Fullscreen: True, Display: \\.\DISPLAY1
+[22:11:46] [28/INFO] [StatusText]: Saving map data
+[22:13:09] [1/DEBUG] [Terraria]: Device Reset, Profile: HiDef, Width: 1920, Height: 1080, Fullscreen: True, Display: \\.\DISPLAY1
+[22:13:15] [7/INFO] [Terraria]: Connecting to 127.0.0.1:7777
+[22:13:15] [1/INFO] [tML]: Server reports AllowVanillaClients set to False
+[22:13:15] [7/INFO] [StatusText]: Freeing unused resources
+[22:13:15] [7/INFO] [StatusText]: Loading map data
+[22:13:16] [7/INFO] [StatusText]: Drawing map
+[22:13:16] [7/INFO] [StatusText]: Receiving tile data
+[22:13:16] [1/INFO] [Terraria]: Entering world with player: HiRav, IsCloud=False
+[22:15:46] [1/WARN] [tML]: Silently Caught Exception: 
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at MagicStorage.CraftingGUI.GetRecipe(Int32 slot, Int32& context) in MagicStorage\CraftingGUI.cs:line 496
+   at MagicStorage.UISlotZone.DrawSelf(SpriteBatch spriteBatch) in MagicStorage\UISlotZone.cs:line 75
+   at Terraria.UI.UIElement.Draw(SpriteBatch spriteBatch)
+   at Terraria.UI.UIElement.DrawChildren(SpriteBatch spriteBatch)
+   at Terraria.UI.UIElement.Draw(SpriteBatch spriteBatch)
+   at MagicStorage.CraftingGUI.Draw(TEStorageHeart heart) in MagicStorage\CraftingGUI.cs:line 468
+   at MagicStorage.InterfaceHelper.DrawStorageGUI() in MagicStorage\InterfaceHelper.cs:line 55
+   at Terraria.UI.LegacyGameInterfaceLayer.DrawSelf()
+   at Terraria.UI.GameInterfaceLayer.Draw()
+   at Terraria.Main.DrawInterface(GameTime gameTime)
+   at Terraria.Main.DoDraw(GameTime gameTime)
+   at Terraria.Main.Draw(GameTime gameTime)
+   at Microsoft.Xna.Framework.Game.DrawFrame()
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.Game.HostIdle(Object sender, EventArgs e)
+   at Microsoft.Xna.Framework.GameHost.OnIdle()
+   at Microsoft.Xna.Framework.WindowsGameHost.RunOneFrame()
+   at Microsoft.Xna.Framework.WindowsGameHost.ApplicationIdle(Object sender, EventArgs e)
+   at System.Windows.Forms.Application.ThreadContext.System.Windows.Forms.UnsafeNativeMethods.IMsoComponent.FDoIdle(Int32 grfidlef)
+   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.Run(Form mainForm)
+   at Microsoft.Xna.Framework.WindowsGameHost.Run()
+   at Microsoft.Xna.Framework.Game.RunGame(Boolean useBlockingRun)
+   at Terraria.Program.LaunchGame_()
+   at Terraria.Program.LaunchGame(String[] args, Boolean monoArgs)
+   at Terraria.WindowsLaunch.Main(String[] args)
+
+[22:16:22] [1/DEBUG] [Terraria]: Device Reset, Profile: HiDef, Width: 1920, Height: 1080, Fullscreen: True, Display: \\.\DISPLAY1

@@ -1,0 +1,7 @@
+{
+  "BaseMorningTMerchantSpawnChance": 0.0,
+  "ChanceEachInGameMinuteWillResetTravelingMerchant": 0.0,
+  "StationaryMerchant": false,
+  "StationaryMerchantStockingChance": 0.0,
+  "S_MerchantStockingChanceBonusWhichWillBeMultipliedByH_ModeCompletionRate": 0.0
+}
